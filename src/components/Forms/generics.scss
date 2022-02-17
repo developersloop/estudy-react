@@ -1,0 +1,7 @@
+.teste {
+	background: red;
+	> .name-blue {
+		background: blue;
+		@extend .teste;
+	}
+}
